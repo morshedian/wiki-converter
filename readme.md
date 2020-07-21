@@ -14,12 +14,12 @@ Logback is used and configured for logging. A file with the name application.log
 
 As for testing, it is done with junit5.
 
-For building the artifact, please check out the project and run the following command:
-mvn clean package
+For building the artifact, please check out the project and run the following command:<br/>
+mvn clean package<br/>
 Then in the target directory you can find a jar file and lib folder. these two must be together for the project to work.
 
 For running the project, after you have built it. navigate to the directory containing the jar file and lib folder. and 
-execute the following command in the command propmpt:
-java -jar wiki-1.0-SNAPSHOjar <input-dir> <output-dir>
-for example:
+execute the following command in the command propmpt:<br/>
+java -jar wiki-1.0-SNAPSHOjar <input-dir> <output-dir><br/>
+for example:<br/>
 java -jar wiki-1.0-SNAPSHOjar /home/mohammad/Desktop/bh/wiki/src/test/resources /home/mohammad/Desktop/bh
